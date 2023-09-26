@@ -28,7 +28,7 @@
 
 ![8.png](8.png)
 
-8. Finally, initialise the repo with `git init`, create new repo on Github and use `git remote add origin git@github.com:<text>` then `git remote set-url origin git@github.com:<sshkey>` to set as origin, where the SSH key is the key in the picture below.
+8. Finally, initialise the repo with `git init`, create new repo on Github and use `git remote add origin git@github.com:<sshurl>` then `git remote set-url origin git@github.com:<sshurl>` to set as origin, where the sshurl is the key in the picture below.
 
 ![9.png](9.png)
 
@@ -42,4 +42,4 @@
 ## Guide to cloning an SSH repository 
 
 1. Do the same thing as when you set up SSH after closing pycharm
-2. Then, clone the repo with `git clone git@github.com:jbjoeburns/GitHub_SSH.git`
+2. Then, clone the repo with `git clone git@github.com:<sshurl>`
