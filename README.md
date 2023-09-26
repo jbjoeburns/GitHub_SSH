@@ -34,8 +34,12 @@
 
 9. Then stage, commit and push as usual!
 
-## Guide to cloning an SSH repository 
+## Guide to setting up SSH after closing pycharm
 
 1. Go to the desired folder and type `eval ssh-agent` with ssh-agent surrounded by backticks (cant show this in .md file)
 2. `ssh-add ~/.ssh/<ssh_folder_filename>` to add the private key identities so I can access the repo
-3. Finally, clone the repo with `git clone git@github.com:jbjoeburns/GitHub_SSH.git`
+
+## Guide to cloning an SSH repository 
+
+1. Do the same thing as when you set up SSH after closing pycharm
+2. Then, clone the repo with `git clone git@github.com:jbjoeburns/GitHub_SSH.git`
