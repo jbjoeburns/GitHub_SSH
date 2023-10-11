@@ -12,6 +12,11 @@
 
 4. Return back to the local directory for your repo, and use `eval ssh-agent` with ssh-agent surrounded by backticks (cant show this in .md file)... Repeat whenever Pycharm is opened.
 
+### !WARNING! **WHATEVER YOU DO, MAKE SURE THAT YOU ARE NOT STILL IN THE SSH FOLDER!** !WARNING!
+### !WARNING! **THIS WILL CAUSE YOU TO PUSH ALL YOUR KEYS TO GITHUB! DO NOT DO THIS!** !WARNING!
+### !WARNING! **WHATEVER YOU DO, MAKE SURE THAT YOU ARE NOT STILL IN THE SSH FOLDER!** !WARNING!
+### !WARNING! **THIS WILL CAUSE YOU TO PUSH ALL YOUR KEYS TO GITHUB! DO NOT DO THIS!** !WARNING!
+
 ![4.png](4.png)
 
 5. `ssh-add ~/.ssh/<ssh_folder_filename>` to add the private key identities you have saved in your .ssh folder to the Git authentication agent so I dont need to type in my key each time I access my repo.
